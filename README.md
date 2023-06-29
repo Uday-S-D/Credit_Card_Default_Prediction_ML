@@ -1,16 +1,70 @@
-# Credit_Card_Default_Prediction_ML
+# **💳Credit Card Default Prediction**
 
-Title: Credit Card Default Prediction: Mitigating Financial Risks with Machine Learning
+In this project i have created a  web app with predictive model for credit card default Prediction. Which is will help banks and loan lenders to predict whether customers will default 
+the credit card payment or not, so the bank or respective departments can take 
+necessary action, based on the model's predictions. The UI is made to be user-friendly 
+so that the user will not need much knowledge of any tools but will just need the 
+information for results
 
-Description:
-The Credit Card Default Prediction project leverages the power of machine learning algorithms to accurately forecast the likelihood of credit card holders defaulting on their payments. By employing advanced predictive modeling techniques, this project aims to assist financial institutions, lenders, and credit card companies in mitigating potential financial risks and optimizing their decision-making processes.
+![image](https://user-images.githubusercontent.com/75267160/181108154-0479f193-fde4-412b-a6cf-86869c5e5b6a.png)
 
-Credit card default is a critical concern in the financial industry, as it can lead to significant losses and impact the overall stability of the economy. Timely identification of customers who are at high risk of defaulting enables proactive measures to be taken, such as offering alternative repayment plans, adjusting credit limits, or implementing debt collection strategies.
+<br>
 
-Using a vast dataset that encompasses historical credit card transaction records, demographic information, credit history, and other relevant features, the project employs various machine learning algorithms, including logistic regression, decision trees, random forests, and gradient boosting models, to build accurate predictive models. These models analyze the historical patterns and relationships among the features to identify key indicators and predict the likelihood of default accurately.
+### 🔒**PROBLEM STATEMENT**
 
-The project involves several stages, including data preprocessing, feature engineering, model selection, and evaluation. During the data preprocessing phase, techniques such as data cleaning, handling missing values, and outlier detection are applied to ensure data integrity and quality. Feature engineering involves transforming and creating new features that capture the underlying patterns in the data, potentially enhancing the models' predictive performance.
+Financial threats are displaying a trend about the credit risk of commercial banks 
+as the incredible improvement in the financial industry has arisen. In this way, one of 
+the biggest threats faces by commercial banks is the risk prediction of credit clients. 
+The goal is to predict the probability of credit default based on credit card owner's
+characteristics and payment history.
+### 🔑**PROPOSED SOLUTION**
 
-The predictive models are then trained on a subset of the data using appropriate machine learning algorithms. The models are optimized and fine-tuned using techniques such as cross-validation and hyperparameter tuning to achieve the best performance. Evaluation metrics such as accuracy, precision, recall, and area under the receiver operating characteristic curve (AUC-ROC) are utilized to assess the models' effectiveness and select the most robust and reliable one.
+The solution proposed here is a Credit card default Prediction model can be 
+implemented to perform above mention use case. ln this case, we have to enter the 
+last six months bill amounts , paid amounts, payment status, credit limit, personal 
+details. Based on the above details model predicts we whether customers will default the credit card payment or not
 
-The ultimate goal of this project is to provide financial institutions with a powerful tool for early identification of customers who are at high risk of defaulting on their credit card payments. By accurately predicting default probabilities, lenders can make informed decisions regarding credit approvals, credit limits, and proactive debt management strategies. This project has the potential to minimize financial losses, enhance risk management practices, and contribute to a more stable and resilient financial ecosystem.
+## 🎯**Overview**
+This is a classification model for a most common dataset, Credit Card defaulter prediction. Prediction of the next month credit card defaulter based on demographic and last six months behavioral data of customers.
+
+
+## 🏷️**Dataset Information**
+Our dataset ‘**Default of Credit Card Clients Dataset**’ consists of informations about transactions from April 2005 to September 2005 of 30000 clients who were credit holders in a bank in Taiwan. This dataset has binary response variable ‘default.payment.next.month’ that takes the value 1 if the corresponding client has default payment and 0 otherwise. Out of 30000 clients 6636(22.12%) were with default payment. There are 23 other independent or explanatory variables:
+
+* ID: ID of each client
+* LIMIT_BAL: Amount of given credit in NT dollars (includes individual and 
+family/supplementary = credit) 
+* SEX: Gender (1=male, 2=female) 
+* EDUCATION: (1=graduate school, 2=university, 3=high school, 4=others, 5=unknown, 
+6=unknown) MARRIAGE: Marital status (1=married, 2=single, 3=others) 
+* AGE: Age in years 
+* PAY_1: Repayment status in September 2005 (-1=pay duly, 1=payment delay for one 
+month, 2=payment delay for two months, … 8=payment delay for eight months,9=payment delay for nine months and above) 
+* PAY_2: Repayment status in August 2005 (scale same as above) 
+* PAY_3: Repayment status in July 2005 (scale same as above) 
+* PAY_4: Repayment status in June 2005 (scale same as above) 
+* PAY_5: Repayment status in May 2005 (scale same as above) 
+* PAY_6: Repayment status in April 2005 (scale same as above) 
+* BILL_AMT1: Amount of bill statement in September 2005 (NT dollar) 
+* BILL_AMT2: Amount of bill statement in August 2005 (NT dollar) 
+* BILL_AMT3: Amount of bill statement in July 2005 (NT dollar) 
+* BILL_AMT4: Amount of bill statement in June 2005 (NT dollar) 
+* BILL_AMT5: Amount of bill statement in May 2005 (NT dollar) 
+* BILL_AMT6: Amount of bill statement in April 2005 (NT dollar) 
+* PAY_AMT1: Amount of previous payment in September 2005 (NT dollar) 
+* PAY_AMT2: Amount of previous payment in August 2005 (NT dollar) 
+* PAY_AMT3: Amount of previous payment in July 2005 (NT dollar)
+* PAY_AMT4: Amount of previous payment in June 2005 (NT dollar) 
+* PAY_AMT5: Amount of previous payment in May 2005 (NT dollar) 
+* PAY_AMT6: Amount of previous payment in April 2005 (NT dollar)
+
+
+[Click here for DataSet](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset)
+
+
+
+
+
+
+
+
