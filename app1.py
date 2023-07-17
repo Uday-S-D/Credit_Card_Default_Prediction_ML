@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Import pickle model file
-model = pickle.load(open('credit_card_default.pkl1','rb'))
+model = pickle.load(open('credit_card_default.pkl','rb'))
 
 # Home Page for the Streamlit app
 def home():
